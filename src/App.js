@@ -18,6 +18,7 @@ function normalizeHeaders(element) {
   element["facebookUrl"] = element["facebookurl"];
   element["instagramUrl"] = element["instagramurl"];
   x = 1
+  y = 1
   if (element["latitude"] && element["longitude"]) {
     element["coordinates"] = { lat: parseFloat(element["latitude"]), lng: parseFloat(element["longitude"]) }
   }
